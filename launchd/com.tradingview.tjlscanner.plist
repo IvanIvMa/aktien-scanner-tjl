@@ -9,7 +9,7 @@
     <key>ProgramArguments</key>
     <array>
         <string>/Library/Frameworks/Python.framework/Versions/3.14/bin/python3</string>
-        <string>/Users/ivan/TradingViewScanner/mcp_scanner_b.py</string>
+        <string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/mcp_scanner_b.py</string>
     </array>
     <!-- Mo-Fr 16:00-21:30 Berlin = 10:00-15:30 ET (stoppt am Einstiegs-Gate) -->
     <key>StartCalendarInterval</key>
@@ -316,9 +316,9 @@
         </dict>
     </array>
     <key>StandardOutPath</key>
-    <string>/Users/ivan/TradingViewScanner/launchd_tjl_stdout.log</string>
+    <string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/launchd_tjl_stdout.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/ivan/TradingViewScanner/launchd_tjl_stderr.log</string>
+    <string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/launchd_tjl_stderr.log</string>
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>

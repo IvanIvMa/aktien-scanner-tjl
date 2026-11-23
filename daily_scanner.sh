@@ -130,7 +130,7 @@ merge_mode = os.environ.get("MERGE_FLAG") == "1"
 MIN_GAP, MIN_PRICE, MIN_VOLUME, TOP_N = 5.0, 3.0, 50_000, 10
 try:
     sys.path.insert(0, os.getcwd())
-    sys.path.insert(0, os.path.expanduser("~/TradingViewScanner"))
+    sys.path.insert(0, os.path.expanduser("~/Developer/Trading/Aktien-Scanner-TJL"))
     import params_store
     _p = params_store.load("scanner_a")
     MIN_GAP, MIN_PRICE, MIN_VOLUME, TOP_N = _p["MIN_GAP"], _p["MIN_PRICE"], _p["MIN_VOLUME"], _p["TOP_N"]

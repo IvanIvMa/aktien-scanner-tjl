@@ -37,7 +37,7 @@ EOD_MIN_ET    = 45
 ET     = ZoneInfo("America/New_York")
 BERLIN = ZoneInfo("Europe/Berlin")
 HERE   = os.path.dirname(os.path.abspath(__file__))
-MCP_SERVER = "/Users/ivan/tradingview-mcp/src/server.js"
+MCP_SERVER = "/Users/ivan/Developer/Trading/Tools/TradingView-MCP/src/server.js"
 
 
 # ---------------------------------------------------------------------------

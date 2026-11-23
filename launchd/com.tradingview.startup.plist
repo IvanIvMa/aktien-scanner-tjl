@@ -9,14 +9,14 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/ivan/tradingviewscanner/start_tradingview.sh</string>
+        <string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/start_tradingview.sh</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
     <key>StandardOutPath</key>
-    <string>/Users/ivan/tradingviewscanner/launchd_startup_stdout.log</string>
+    <string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/launchd_startup_stdout.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/ivan/tradingviewscanner/launchd_startup_stderr.log</string>
+    <string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/launchd_startup_stderr.log</string>
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>

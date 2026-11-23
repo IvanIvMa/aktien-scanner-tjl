@@ -480,7 +480,7 @@ Drei getrennte launchd-Jobs:
 
 Anfangs lag das Projekt unter `~/Documents`. Die automatischen Läufe schlugen **stillschweigend fehl** ("Operation not permitted"), weil macOS die Ordner Dokumente, Schreibtisch und Downloads mit einer Datenschutz-Sperre (TCC) schützt — Hintergrundprozesse wie launchd dürfen dort nicht zugreifen. Manuelle Läufe funktionierten, automatische nicht.
 
-**Lösung:** Das Projekt liegt jetzt unter `~/TradingViewScanner/` (außerhalb der Sperre). Lehre: zeitgesteuerte Scripts gehören nicht in die geschützten macOS-Benutzerordner.
+**Lösung:** Das Projekt liegt jetzt unter `~/Developer/Trading/Aktien-Scanner-TJL/` (außerhalb der Sperre). Lehre: zeitgesteuerte Scripts gehören nicht in die geschützten macOS-Benutzerordner.
 
 ---
 
@@ -526,10 +526,10 @@ Anfangs lag das Projekt unter `~/Documents`. Die automatischen Läufe schlugen *
 
 ### Projektstruktur
 
-Speicherort: **`~/TradingViewScanner/`** (bewusst NICHT unter `~/Documents`, siehe Lerneffekt unten).
+Speicherort: **`~/Developer/Trading/Aktien-Scanner-TJL/`** (bewusst NICHT unter `~/Documents`, siehe Lerneffekt unten).
 
 ```
-~/TradingViewScanner/
+~/Developer/Trading/Aktien-Scanner-TJL/
 ├── .env                          ← Telegram-Credentials (nicht im Git)
 ├── .gitignore                    ← Schützt sensible Dateien
 ├── daily_scanner.sh              ← Scanner A: Premarket Gappers (automatisch)

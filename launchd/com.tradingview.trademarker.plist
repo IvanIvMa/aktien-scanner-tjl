@@ -7,7 +7,7 @@
     <key>ProgramArguments</key>
     <array>
         <string>/Library/Frameworks/Python.framework/Versions/3.14/bin/python3</string>
-        <string>/Users/ivan/tradingviewscanner/mark_trades_tv.py</string>
+        <string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/mark_trades_tv.py</string>
     </array>
     <!-- Mo-Fr 22:05 + 22:35 Berlin (16:05/16:35 ET). Zwei Versuche; markierte werden uebersprungen. -->
     <key>StartCalendarInterval</key>
@@ -64,9 +64,9 @@
         </dict>
     </array>
     <key>StandardOutPath</key>
-    <string>/Users/ivan/tradingviewscanner/launchd_marker_stdout.log</string>
+    <string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/launchd_marker_stdout.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/ivan/tradingviewscanner/launchd_marker_stderr.log</string>
+    <string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/launchd_marker_stderr.log</string>
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>

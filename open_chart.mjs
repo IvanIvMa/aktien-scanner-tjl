@@ -1,7 +1,7 @@
 // open_chart.mjs — öffnet in TradingView Desktop einen Chart (via CDP Port 9222),
 // falls die App nur auf der Start-/Layout-Auswahlseite steht.
 // Nutzung: node open_chart.mjs [SYMBOL]   (Default: NASDAQ:AAPL)
-import CDP from '/Users/ivan/tradingview-mcp/node_modules/chrome-remote-interface/index.js';
+import CDP from '/Users/ivan/Developer/Trading/Tools/TradingView-MCP/node_modules/chrome-remote-interface/index.js';
 
 const symbol = process.argv[2] || 'NASDAQ:AAPL';
 const targets = await CDP.List({ port: 9222 });

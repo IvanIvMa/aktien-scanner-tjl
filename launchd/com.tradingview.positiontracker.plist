@@ -7,7 +7,7 @@
     <key>ProgramArguments</key>
     <array>
         <string>/Library/Frameworks/Python.framework/Versions/3.14/bin/python3</string>
-        <string>/Users/ivan/tradingviewscanner/position_tracker.py</string>
+        <string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/position_tracker.py</string>
     </array>
     <!-- 5-Min-Takt Mo-Fr 16:00-22:00 Berlin = 10:00-16:00 ET (Exit-Granularitaet) -->
     <key>StartCalendarInterval</key>
@@ -1839,9 +1839,9 @@
         </dict>
     </array>
     <key>StandardOutPath</key>
-    <string>/Users/ivan/tradingviewscanner/launchd_tracker_stdout.log</string>
+    <string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/launchd_tracker_stdout.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/ivan/tradingviewscanner/launchd_tracker_stderr.log</string>
+    <string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/launchd_tracker_stderr.log</string>
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>

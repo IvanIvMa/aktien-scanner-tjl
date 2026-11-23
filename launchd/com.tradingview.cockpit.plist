@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
   <key>Label</key><string>com.tradingview.cockpit</string>
-  <key>ProgramArguments</key><array><string>/Library/Frameworks/Python.framework/Versions/3.14/bin/python3</string><string>/Users/ivan/TradingViewScanner/dashboard/app.py</string></array>
-  <key>WorkingDirectory</key><string>/Users/ivan/TradingViewScanner/dashboard</string>
+  <key>ProgramArguments</key><array><string>/Library/Frameworks/Python.framework/Versions/3.14/bin/python3</string><string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/dashboard/app.py</string></array>
+  <key>WorkingDirectory</key><string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/dashboard</string>
   <key>EnvironmentVariables</key><dict><key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string><key>PYTHONUNBUFFERED</key><string>1</string></dict>
   <key>RunAtLoad</key><true/>
   <key>KeepAlive</key><true/>
   <key>ThrottleInterval</key><integer>10</integer>
-  <key>StandardOutPath</key><string>/Users/ivan/TradingViewScanner/launchd_cockpit.log</string>
-  <key>StandardErrorPath</key><string>/Users/ivan/TradingViewScanner/launchd_cockpit.log</string>
+  <key>StandardOutPath</key><string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/launchd_cockpit.log</string>
+  <key>StandardErrorPath</key><string>/Users/ivan/Developer/Trading/Aktien-Scanner-TJL/launchd_cockpit.log</string>
 </dict>
 </plist>

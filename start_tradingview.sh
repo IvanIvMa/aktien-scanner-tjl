@@ -36,7 +36,7 @@ fi
 # 5. Chart-Check: ist ein Chart offen und liefert Daten? Sonst Telegram-Warnung.
 #    (Ohne offenen Chart fällt Scanner B still auf Yahoo-Daten zurück.)
 cd "$(dirname "$0")"
-python3 - << 'PYEOF'
+/Library/Frameworks/Python.framework/Versions/3.14/bin/python3 - << 'PYEOF'
 import sys, time, subprocess
 sys.path.insert(0, ".")
 from position_tracker import try_connect_mcp, send_telegram, _find_node

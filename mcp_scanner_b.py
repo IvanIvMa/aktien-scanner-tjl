@@ -28,7 +28,7 @@ import yfinance as yf
 
 ET = ZoneInfo("America/New_York")
 BASE = os.path.dirname(os.path.abspath(__file__))
-MCP_SERVER = "/Users/ivan/tradingview-mcp/src/server.js"
+MCP_SERVER = "/Users/ivan/Developer/Trading/Tools/TradingView-MCP/src/server.js"
 FORCE = "--force" in sys.argv
 
 
